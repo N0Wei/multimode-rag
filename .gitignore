@@ -1,0 +1,39 @@
+# 忽略所有 .log 文件
+*.log
+# 忽略 Visual Studio Code 的工作区设置文件
+.vscode/
+#忽略环境配置文件
+.env
+.env.*
+!.env.example
+!.env.aliyun.example
+# 忽略所有预训练模型
+pre_train_model/
+# 忽略其他大文件或缓存
+*.pth
+*.bin
+*.safetensors
+**/__pycache__/
+vector_cache/
+multimodal_vector_store/
+.gradio/
+all_text.txt
+images/
+
+# 本地环境、IDE 和测试缓存
+.venv/
+venv/
+**/.venv/
+.idea/
+.pytest_cache/
+.codex/
+
+# 本地上传资料、解析结果、向量库和运行数据
+/data/
+/tmp/
+/memory_store/
+/test_memory_store/
+
+# 个人简历文件
+/resume_ai_app.pdf
+/resume_ai_app_text.txt

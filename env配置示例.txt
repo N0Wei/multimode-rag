@@ -1,0 +1,11 @@
+# 兼容旧文档保留的入口。
+#
+# 项目的权威环境变量模板已经迁移到 `.env.example`。请复制该文件：
+#
+# Windows PowerShell:
+#   Copy-Item .env.example .env
+#
+# Linux/macOS:
+#   cp .env.example .env
+#
+# 不要在本文件或仓库中填写真实 API Key。
